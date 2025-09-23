@@ -371,19 +371,77 @@ mantenimiento_ap = [
 
 
 # JSON de otras entidades
-otras_entidades = [
+otras_entidades = 
+[
     {
-        "empresa": "Empresa de Energía",
-        "correos": ["energia@empresa.com", "soporte@empresa.com"]
+        "empresa": "VEOLIA",
+        "correos": ["co.servicioalcliente.aseo.oriente@veolia.com"]
     },
     {
-        "empresa": "Empresa de Acueducto",
-        "correos": ["acueducto@empresa.com", "gestion@empresa.com"]
+        "empresa": "AGUAS KAPITAL",
+        "correos": ["radicacion.ceindoc@akc.co"]
+    },
+    {
+        "empresa": "AFINIA",
+        "correos": ["correspondencia@afinia.com.co"]
+    },
+    {
+        "empresa": "EPM",
+        "correos": ["epm@epm.com.co"]
+    },
+    {
+        "empresa": "ESSA",
+        "correos": ["essa@essa.com.co"]
+    },
+    {
+        "empresa": "ENEL",
+        "correos": ["servicioalcliente.empresarial@enel.com"]
+    },
+    {
+        "empresa": "CEDENAR",
+        "correos": ["correspondenciacad@cedenar.com.co"]
+    },
+    {
+        "empresa": "VATIA",
+        "correos": ["linsac@vatia.com.co"]
+    },
+    {
+        "empresa": "E-Huila",
+        "correos": ["radicacion@electrohuila.co"]
+    },
+    {
+        "empresa": "CEDELCA",
+        "correos": ["contacto@cedelca.com.co"]
+    },
+    {
+        "empresa": "EEP",
+        "correos": ["contactenos@eep.com.co"]
+    },
+    {
+        "empresa": "EMSA",
+        "correos": ["pqr@emsa-esp.com.co"]
+    },
+    {
+        "empresa": "DISPAC",
+        "correos": ["acliente@dispacsaesp.com"]
+    },
+    {
+        "empresa": "EDEQ",
+        "correos": ["edeq@edeq.com.co"]
     }
 ]
 
 # Lista de municipios de Norte de Santander
-municipios_norte_santander = ["Abrego", "Los Patios", "Bochalema", "Cúcuta", "Villa del Rosario"]
+municipios_norte_santander = [
+    "Arboledas", "Cucutilla", "Gramalote", "Lourdes", "Salazar de Las Palmas",
+    "Santiago", "Villa Caro", "Cúcuta", "El Zulia", "Los Patios",
+    "Puerto Santander", "San Cayetano", "Villa del Rosario", "Bucarasica",
+    "El Tarra", "Sardinata", "Tibú", "Ábrego", "Cáchira", "Convención",
+    "El Carmen", "Hacarí", "La Esperanza", "La Playa de Belén", "Ocaña",
+    "San Calixto", "Teorama", "Cácota", "Chitagá", "Mutiscua",
+    "Pamplona", "Pamplonita", "Santo Domingo de Silos", "Bochalema",
+    "Chinácota", "Durania", "Herrán", "Labateca", "Ragonvalia", "Toledo"
+]
 
 # =====================================
 # Variables globales
@@ -623,3 +681,4 @@ def mostrar_formulario(opcion):
 opcion_cb.bind("<<ComboboxSelected>>", lambda event: mostrar_formulario(opcion_cb.get()))
 
 root.mainloop()
+
