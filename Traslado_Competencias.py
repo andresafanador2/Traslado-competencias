@@ -369,7 +369,6 @@ mantenimiento_ap = [
   }
 ]
 
-
 # JSON de otras entidades
 otras_entidades = 
 [
@@ -386,7 +385,7 @@ otras_entidades =
         "correos": ["correspondencia@afinia.com.co"]
     },
     {
-        "empresa": "EPM",
+        "empresa": "Empresas Públicas de Medellin",
         "correos": ["epm@epm.com.co"]
     },
     {
@@ -398,7 +397,7 @@ otras_entidades =
         "correos": ["servicioalcliente.empresarial@enel.com"]
     },
     {
-        "empresa": "CEDENAR",
+        "empresa": "CENTRALES ELECTRICAS DE NARIÑO - CEDENAR",
         "correos": ["correspondenciacad@cedenar.com.co"]
     },
     {
@@ -406,27 +405,27 @@ otras_entidades =
         "correos": ["linsac@vatia.com.co"]
     },
     {
-        "empresa": "E-Huila",
+        "empresa": "Electrificadora del Huila S.A. E.S.P.",
         "correos": ["radicacion@electrohuila.co"]
     },
     {
-        "empresa": "CEDELCA",
+        "empresa": "Centrales Eléctricas del Cauca S.A. E.S.P.",
         "correos": ["contacto@cedelca.com.co"]
     },
     {
-        "empresa": "EEP",
+        "empresa": "Empresa de Energía de Pereira S.A. E.S.P.",
         "correos": ["contactenos@eep.com.co"]
     },
     {
-        "empresa": "EMSA",
+        "empresa": "Electrificadora del Meta S.A. E.S.P.",
         "correos": ["pqr@emsa-esp.com.co"]
     },
     {
-        "empresa": "DISPAC",
+        "empresa": "Empresa Distribuidora del Pacífico S.A. E.S.P.",
         "correos": ["acliente@dispacsaesp.com"]
     },
     {
-        "empresa": "EDEQ",
+        "empresa": "Empresa de Energía del Quindío S.A. E.S.P.",
         "correos": ["edeq@edeq.com.co"]
     }
 ]
@@ -681,4 +680,5 @@ def mostrar_formulario(opcion):
 opcion_cb.bind("<<ComboboxSelected>>", lambda event: mostrar_formulario(opcion_cb.get()))
 
 root.mainloop()
+
 
